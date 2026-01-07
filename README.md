@@ -26,33 +26,7 @@ TestNG	Test execution
 Maven	Build & dependency management
 POM	Design pattern
 Jenkins	Continuous Integration (optional)
-🗂️ Project Structure
-OrangeHRM-Cucumber-Automation
-│
-├── src/main/java
-│   ├── pages
-│   │   ├── LoginPage.java
-│   │   └── DashboardPage.java
-│   ├── utils
-│   │   ├── DriverFactory.java
-│   │   └── ConfigReader.java
-│
-├── src/test/java
-│   ├── stepdefinitions
-│   │   ├── LoginSteps.java
-│   │   └── DashboardSteps.java
-│   ├── runners
-│   │   └── TestRunner.java
-│
-├── src/test/resources
-│   ├── features
-│   │   ├── login.feature
-│   │   └── dashboard.feature
-│   ├── config
-│   │   └── config.properties
-│
-├── pom.xml
-└── README.md
+
 
 🧪 Test Scenarios Covered
 🔐 Login Page
